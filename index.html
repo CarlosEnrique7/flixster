@@ -9,10 +9,25 @@
   </head>
   <body>
     <h1 id="title">🍿 Flixster</h1>
-    <h3 id="now-playing">Now Playing</h3>
+    <form id="form" class="hidden">
+      <div id="search-container">
+        <input id="search-bar" type="text" name="movieTitle" placeholder="Enter movie name..." />
+        <button id="search-btn">Search</button>
+      </div>
+    </form>
+    <span id="heading">
+      <h3 id="now-playing">Now Playing</h3>
+      <i class="fas fa-search"></i>
+    </span>
     <div id="movie-list"></div>
     <div class="button-wrapper">
       <button id="load-btn" class="hidden">Load More</button>
+    </div>
+    <div id="my-modal" class="modal hidden">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p></p>
+      </div>
     </div>
     <script src="https://kit.fontawesome.com/22ef750f05.js" crossorigin="anonymous"></script>
     <script src="./script.js"></script>

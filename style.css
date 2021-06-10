@@ -15,6 +15,18 @@ body {
   padding: 16px;
 }
 
+#heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+
+.fa-search {
+  font-size: 24px;
+  color: white;
+}
+
 /*-----------------
 movie poster grid
 -----------------*/
@@ -27,6 +39,7 @@ movie poster grid
 
 .card {
   background: linear-gradient(to left bottom, rgba(198, 204, 206, 0.6), rgba(105, 108, 109, 0.3));
+  width: 300px;
   border-radius: 16px;
   display: flex;
   flex-direction: column;
@@ -35,8 +48,8 @@ movie poster grid
 }
 
 .poster {
-  width: 250px;
-  height: 250px;
+  width: 90%;
+  height: 100%px;
   margin: 10px;
   border: 3px solid white;
   border-radius: 10px;
@@ -55,6 +68,17 @@ movie poster grid
   color: white;
 }
 
+.movie-name {
+  width: 75%;
+}
+
+.fa-star {
+  color: goldenrod;
+  font-size: 18px;
+  margin: auto;
+  margin-right: 8px;
+}
+
 /* @media screen and (max-width: 1070px) {}*/
 
 .button-wrapper {
@@ -64,8 +88,8 @@ movie poster grid
 
 #load-btn {
   text-align: center;
-  background-color: lightsalmon;
-  color: black;
+  background-color: black;
+  color: white;
   border-radius: 10px;
   width: 150px;
   height: 35px;
@@ -75,5 +99,65 @@ movie poster grid
 }
 
 .hidden {
-  display: none;
+  display: none !important;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+#search-container {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#search-bar {
+  width: 75%;
+  height: 30px;
+  border-radius: 8px;
+}
+
+#search-btn {
+  width: 20%;
+  height: 100%;
+  text-align: center;
+  background-color: lightsalmon;
+  color: black;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/*--------------
+modal
+--------------*/
+
+.modal {
+  position: fixed;
+  z-index: 1;
+  left: 10%;
+  top: 10%;
+  bottom: 10%;
+  right: 10%;
+  width: 80%;
+  height: 80%;
+  overflow: auto;
+  background: linear-gradient(to left bottom, rgba(110, 117, 119, 1), rgba(105, 108, 109, 0.5));
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
+}
+.close {
+  color: #c5c2c2;
+  float: right;
+  margin-right: 25px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.close:hover {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
 }
