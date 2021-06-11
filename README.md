@@ -6,9 +6,9 @@
 
 Submitted by: **Carlos Chavez**
 
-Estimated time spent: **4** hours spent in total
+Estimated time spent: **10** hours spent in total
 
-Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
+Deployed Application (optional): [Flixster Deployed Site](https://carlosenrique7.github.io/flixster/)
 
 ### Application Features
 
@@ -23,7 +23,7 @@ Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 
 #### STRETCH FEATURES
 
-- [x] Deploy website using GitHub Pages. https://carlosenrique7.github.io/flixster/
+- [x] Deploy website using GitHub Pages.
 - [x] Allow user to view more details about a movie within a popup.
 - [x] Improve the user experience through CSS & animation.
 - [x] Allow movie video trailers to be played using [embedded YouTube](https://support.google.com/youtube/answer/171780?hl=en)
@@ -33,7 +33,9 @@ Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 
 `TODO://` Add the URL to your animated app walkthough `gif` in the image tag below, `YOUR_GIF_URL_HERE`. Make sure the gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after after adding gif)
 
-<img src="https://i.imgur.com/WrCnZ41.mp4" width=250><br>
+Link to gif: https://imgur.com/HvKFNGF
+
+<img src="https://imgur.com/HvKFNGF" width=250><br>
 
 ### Reflection
 
