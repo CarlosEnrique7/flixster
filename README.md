@@ -34,10 +34,7 @@ Deployed Application: [Flixster Deployed Site](https://carlosenrique7.github.io/
 `TODO://` Add the URL to your animated app walkthough `gif` in the image tag below, `YOUR_GIF_URL_HERE`. Make sure the gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after after adding gif)
 
 Link to gif: https://imgur.com/HvKFNGF
-
-<video width=250 height="250">
-  <source src="https://i.imgur.com/HvKFNGF.mp4" type="video/mp4>
-</video><br>
+<img src="https://i.imgur.com/HvKFNGF.mp4" width=250><br>
 
 ### Reflection
 
