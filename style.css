@@ -118,7 +118,25 @@ movie poster grid
   margin-right: 8px;
 }
 
-/* @media screen and (max-width: 1070px) {}*/
+@media screen and (max-width: 950px) {
+  #ytplayer {
+    height: 350px;
+    width: 80%;
+  }
+  .desc-area {
+    top: 100px;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  .overview-desc {
+    display: none;
+  }
+  #ytplayer {
+    height: 500px;
+    width: 85%;
+  }
+}
 
 .button-wrapper {
   width: 100%;
@@ -216,7 +234,7 @@ modal
 .movie-info {
   position: relative;
   top: 80px;
-  left: 140px;
+  text-align: center;
 }
 
 .desc-area {
@@ -227,7 +245,6 @@ modal
   align-items: center;
   position: relative;
   top: -25px;
-  right: 140px;
 }
 
 .overview-desc {

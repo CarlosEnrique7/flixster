@@ -1,7 +1,3 @@
-# flixster
-
-📝 `NOTE` Use this template to initialize the contents of a README.md file for your application. As you work on your assignment over the course of the week, update the required or stretch features lists to indicate which features you have completed by changing `[ ]` to `[x]`. (🚫 Remove this paragraph before submitting your assignment.)
-
 ## Week 1 Assignment: Flixster
 
 Submitted by: **Carlos Chavez**
@@ -31,26 +27,24 @@ Deployed Application: [Flixster Deployed Site](https://carlosenrique7.github.io/
 
 ### Walkthough GIF
 
-`TODO://` Add the URL to your animated app walkthough `gif` in the image tag below, `YOUR_GIF_URL_HERE`. Make sure the gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after after adding gif)
-
-Link to gif: https://imgur.com/HvKFNGF
-<img src="https://i.imgur.com/HvKFNGF.mp4" width=250><br>
+Link to gif: https://imgur.com/HvKFNGF.gif
+<br>
+I left a link to the gif because I couldn't get it to work
+<img src="https://imgur.com/HvKFNGF.gif" width=250><br>
 
 ### Reflection
 
 - Did the topics discussed in your labs prepare you to complete the assignment? Be specific, which features in your weekly assignment did you feel unprepared to complete?
 
-Add your response here
 Yes, the topics covered in the labs and lessons were super helpful in preparing for the assignment. I was definitely feeling unprepared on Tuesday because I had done very little with API's in node, but I felt that I didn't know where to start for the assignment. After Wednesday's lesson and lab, all the topics covered were made so easy to understand and I felt comfortable with API's and was able to understand the project and complete it.
 
 - If you had more time, what would you have done differently? Would you have added additional features? Changed the way your project responded to a particular event, etc.
 
-Add your response here
 I would have liked to add more items in the navbar to make diffent API calls and get information on most popular tv shows, sort by popularity, and being able to add movies to a watchlist and see them on that tab.
 
 - Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
-Add your response here
+I think it went went well, it was nice to see the other intern's projects and how we did things differently even though we were all building the same thing. I found it nice that we spoke about the features we would have liked to implement but couldn't do so yet. There were some really great ideas like adding a filter to the page.
 
 ### Open-source libraries used
 
@@ -58,10 +52,10 @@ Add your response here
 
 ### Shout out
 
+Give a shout out to somebody from your cohort that especially helped you during your project. This can be a fellow peer, instructor, TA, mentor, etc.
+
 Rodrigo Martinez, Ann Wang, and Sydney Varner were all awesome. I enjoyed working with them a ton!
 
 Raahima Ahmed was also super nice and helped me with understanding a bug in my code! I found it really great that she made sure I understood the way to solve it.
 
 Matt and Tirumari for the lessons that they made seem so simple to understand!
-
-Give a shout out to somebody from your cohort that especially helped you during your project. This can be a fellow peer, instructor, TA, mentor, etc.
