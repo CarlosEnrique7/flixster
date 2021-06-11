@@ -35,7 +35,9 @@ Deployed Application: [Flixster Deployed Site](https://carlosenrique7.github.io/
 
 Link to gif: https://imgur.com/HvKFNGF
 
-<video src="https://i.imgur.com/HvKFNGF.mp4" width=250></video><br>
+<video width=250 height="250">
+  <source src="https://i.imgur.com/HvKFNGF.mp4" type="video/mp4>
+</video><br>
 
 ### Reflection
 
