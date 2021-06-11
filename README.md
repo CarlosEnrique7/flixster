@@ -14,20 +14,20 @@ Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 
 #### REQUIRED FEATURES
 
-- [ ] User can view a list of current movies from The Movie Database API as a grid view.
-- [ ] For each movie displayed, user can see the following details: `Title`, `Poster Image`, `Votes`.
-- [ ] User can load more current movies by clicking a button at the bottom of the list. The page should not refresh; movies should simply be added to the bottom.
-- [ ] Allow users to search for movies and display them in a grid view. Users should be able to clear results and view previous current movies displayed.
-- [ ] Website accounts for basic HTML/CSS accessibility features.
-- [ ] Website should be responsive.
+- [x] User can view a list of current movies from The Movie Database API as a grid view.
+- [x] For each movie displayed, user can see the following details: `Title`, `Poster Image`, `Votes`.
+- [x] User can load more current movies by clicking a button at the bottom of the list. The page should not refresh; movies should simply be added to the bottom.
+- [x] Allow users to search for movies and display them in a grid view. Users should be able to clear results and view previous current movies displayed.
+- [x] Website accounts for basic HTML/CSS accessibility features.
+- [x] Website should be responsive.
 
 #### STRETCH FEATURES
 
-- [ ] Deploy website using GitHub Pages.
+- [x] Deploy website using GitHub Pages. https://carlosenrique7.github.io/flixster/
 - [ ] Allow user to view more details about a movie within a popup.
-- [ ] Improve the user experience through CSS & animation.
+- [x] Improve the user experience through CSS & animation.
 - [ ] Allow movie video trailers to be played using [embedded YouTube](https://support.google.com/youtube/answer/171780?hl=en)
-- [ ] Implement anything else that you can get done to improve the app functionality!
+- [x] Implement anything else that you can get done to improve the app functionality!
 
 ### Walkthough GIF
 
@@ -39,11 +39,12 @@ Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 
 - Did the topics discussed in your labs prepare you to complete the assignment? Be specific, which features in your weekly assignment did you feel unprepared to complete?
 
-Add your response here
+Yes, the topics covered in the labs and lessons were super helpful in preparing for the assignment. I was definitely feeling unprepared on Tuesday because I had done very little with API's in node, but I felt that I didn't know where to start for the assignment. After Wednesday's lesson and lab, all the topics covered were made so easy to understand and I felt comfortable with API's and was able to understand the project and complete it.
 
 - If you had more time, what would you have done differently? Would you have added additional features? Changed the way your project responded to a particular event, etc.
 
 Add your response here
+I would have liked to add more items in the navbar to make diffent API calls and get information on most popular tv shows, sort by popularity, and being able to add movies to a watchlist and see them on that tab.
 
 - Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
@@ -54,5 +55,11 @@ Add your response here
 - Add any links to open-source libraries used in your project.
 
 ### Shout out
+
+Rodrigo Martinez was really helpful and we were able to go back and forth helping each other out!
+
+Raahima Ahmed was also super nice and helped me with understanding a bug in my code! I found it really great that she made sure I understood the way to solve it.
+
+Matt and Tirumari for the lessons that they made seem so simple to understand!
 
 Give a shout out to somebody from your cohort that especially helped you during your project. This can be a fellow peer, instructor, TA, mentor, etc.
