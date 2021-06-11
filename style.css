@@ -1,18 +1,32 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: black;
+}
+
 body {
-  background-color: #333;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 00, 0.3)),
+    url(https://cdn.abcotvs.com/dip/images/6011023_031320-cc-ss-empty-theater-img.jpg) center/cover no-repeat;
+  background-attachment: fixed;
 }
 
 #title {
   text-align: center;
   color: white;
   font-size: 40px;
+  margin-left: 25px;
 }
 
-#now-playing {
+.now-playing {
   color: white;
-  font-size: 24px;
-  text-align: left;
+  text-shadow: -3px 0 black, -3px 0 black, -3px 0 black, -3px 0 black;
+  font-size: 36px;
+  width: 100%;
+  text-align: center;
   padding: 16px;
+  position: relative;
+  top: 30px;
 }
 
 #heading {
@@ -25,6 +39,25 @@ body {
 .fa-search {
   font-size: 24px;
   color: white;
+  margin-right: 25px;
+}
+
+.fa-search:hover,
+.fa-search:active {
+  color: #690f0f;
+  cursor: pointer;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  z-index: 2;
 }
 
 /*-----------------
@@ -45,6 +78,12 @@ movie poster grid
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+  transition: all 3ms ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.1);
 }
 
 .poster {
@@ -88,7 +127,7 @@ movie poster grid
 
 #load-btn {
   text-align: center;
-  background-color: black;
+  background-color: #690f0f;
   color: white;
   border-radius: 10px;
   width: 150px;
@@ -105,6 +144,8 @@ movie poster grid
 form {
   display: flex;
   justify-content: center;
+  margin-left: auto;
+  margin-right: 25px;
 }
 
 #search-container {
@@ -123,8 +164,8 @@ form {
   width: 20%;
   height: 100%;
   text-align: center;
-  background-color: lightsalmon;
-  color: black;
+  background-color: #690f0f;
+  color: white;
   border-radius: 8px;
   font-size: 14px;
   font-weight: bold;
@@ -157,7 +198,15 @@ modal
 }
 
 .close:hover {
-  color: red;
+  color: #690f0f;
   text-decoration: none;
   cursor: pointer;
+}
+
+#top-page,
+#top-page:active,
+#top-page:visited,
+#top-page:focus,
+#top-page:hover {
+  text-decoration: none !important;
 }
