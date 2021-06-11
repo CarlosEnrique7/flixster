@@ -6,6 +6,8 @@ const nowPlaying = document.querySelector(".now-playing");
 const form = document.querySelector("form");
 const modal = document.querySelector(".modal");
 const closeModal = document.querySelector(".close");
+let cards;
+const movieInfo = document.querySelector(".movie-info");
 // end of modal prep
 
 let page = 1;
@@ -30,6 +32,10 @@ loadBtn.addEventListener("click", () => {
   page++;
   console.log(page);
   getApiData();
+});
+
+closeModal.addEventListener("click", () => {
+  modal.classList.add("hidden");
 });
 
 // functions
@@ -65,7 +71,7 @@ async function getApiData() {
 
 function displayMovies(results) {
   let posterPath;
-  results.forEach((element, index) => {
+  results.forEach((element) => {
     // displays coming soon image if movie does not have a poster, else displays poster.
     if (element.poster_path == null) {
       posterPath = "./images/comingSoon.jpeg";
@@ -74,7 +80,7 @@ function displayMovies(results) {
     }
 
     movieArea.innerHTML += `
-    <div class="card">
+    <div class="card" id="${element.id}">
       <img class="poster" src="${posterPath}" alt="${element.title} poster image" />
       <div class="info">
         <span class="movie-name">${element.title}</span>
@@ -82,10 +88,53 @@ function displayMovies(results) {
       </div>
     </div>
     `;
+    cards = document.querySelectorAll(".card");
   });
+  console.log(Array.from(cards));
+  posterButton(cards);
 }
 
 function clearHMTL() {
   movieArea.innerHTML = " ";
   page = 1;
+}
+
+function posterButton(cards) {
+  cards.forEach((element, index) => {
+    element.addEventListener("click", () => {
+      modal.classList.remove("hidden");
+      getMovieInfo(cards[index].id);
+      // movieId = getApiData();
+    });
+  });
+}
+
+async function getMovieInfo(movieId) {
+  let infoApiUrl = `https://api.themoviedb.org/3/movie/${movieId}/videos?${apiKey}&language=en-US`;
+  // console.log(infoApiUrl);
+
+  const response = await fetch(infoApiUrl);
+  const responseData = await response.json();
+  const results = responseData.results;
+  // console.log(results);
+
+  movieInfo.innerHTML = `
+  <iframe id="ytplayer" type="text/html" width="640" height="360"
+  src="https://www.youtube.com/embed/${results[0].key}?autoplay=1&origin=http://example.com"
+  frameborder="0"></iframe>
+  <div class="desc-area"></div>
+  `;
+
+  getDetails(movieId);
+}
+
+async function getDetails(movieId) {
+  let descApiUrl = `https://api.themoviedb.org/3/movie/${movieId}?${apiKey}`;
+  console.log(descApiUrl);
+
+  const res = await fetch(descApiUrl);
+  const resData = await res.json();
+  document.querySelector(".desc-area").innerHTML += `
+  <p class="overview-desc">${resData.overview}</p>
+  `;
 }
