@@ -24,21 +24,22 @@ Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 #### STRETCH FEATURES
 
 - [x] Deploy website using GitHub Pages. https://carlosenrique7.github.io/flixster/
-- [ ] Allow user to view more details about a movie within a popup.
+- [x] Allow user to view more details about a movie within a popup.
 - [x] Improve the user experience through CSS & animation.
-- [ ] Allow movie video trailers to be played using [embedded YouTube](https://support.google.com/youtube/answer/171780?hl=en)
+- [x] Allow movie video trailers to be played using [embedded YouTube](https://support.google.com/youtube/answer/171780?hl=en)
 - [x] Implement anything else that you can get done to improve the app functionality!
 
 ### Walkthough GIF
 
 `TODO://` Add the URL to your animated app walkthough `gif` in the image tag below, `YOUR_GIF_URL_HERE`. Make sure the gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after after adding gif)
 
-<img src="YOUR_GIF_URL_HERE" width=250><br>
+<img src="https://thumbs.gfycat.com/ImpoliteGracefulEarthworm-mobile.mp4" width=250><br>
 
 ### Reflection
 
 - Did the topics discussed in your labs prepare you to complete the assignment? Be specific, which features in your weekly assignment did you feel unprepared to complete?
 
+Add your response here
 Yes, the topics covered in the labs and lessons were super helpful in preparing for the assignment. I was definitely feeling unprepared on Tuesday because I had done very little with API's in node, but I felt that I didn't know where to start for the assignment. After Wednesday's lesson and lab, all the topics covered were made so easy to understand and I felt comfortable with API's and was able to understand the project and complete it.
 
 - If you had more time, what would you have done differently? Would you have added additional features? Changed the way your project responded to a particular event, etc.
@@ -56,7 +57,7 @@ Add your response here
 
 ### Shout out
 
-Rodrigo Martinez was really helpful and we were able to go back and forth helping each other out!
+Rodrigo Martinez, Ann Wang, and Sydney Varner were all awesome. I enjoyed working with them a ton!
 
 Raahima Ahmed was also super nice and helped me with understanding a bug in my code! I found it really great that she made sure I understood the way to solve it.
 
