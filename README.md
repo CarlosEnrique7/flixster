@@ -28,8 +28,8 @@ Deployed Application: [Flixster Deployed Site](https://carlosenrique7.github.io/
 ### Walkthough GIF
 
 Link to gif: https://imgur.com/HvKFNGF.gif
-<br>
-I left a link to the gif because I couldn't get it to work
+<br><br>
+I left a link above to the gif because I couldn't get the gif to play in the readme
 <img src="https://imgur.com/HvKFNGF.gif" width=250><br>
 
 ### Reflection
