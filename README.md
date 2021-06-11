@@ -8,7 +8,7 @@ Submitted by: **Carlos Chavez**
 
 Estimated time spent: **10** hours spent in total
 
-Deployed Application (optional): [Flixster Deployed Site](https://carlosenrique7.github.io/flixster/)
+Deployed Application: [Flixster Deployed Site](https://carlosenrique7.github.io/flixster/)
 
 ### Application Features
 
@@ -35,7 +35,7 @@ Deployed Application (optional): [Flixster Deployed Site](https://carlosenrique7
 
 Link to gif: https://imgur.com/HvKFNGF
 
-<img src="https://imgur.com/HvKFNGF" width=250><br>
+<img src="https://i.imgur.com/HvKFNGF.mp4" width=250><br>
 
 ### Reflection
 
