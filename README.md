@@ -29,8 +29,6 @@ Deployed Application: [Flixster Deployed Site](https://carlosenrique7.github.io/
 
 Link to walkthrough: https://i.imgur.com/WrCnZ41.mp4
 <br><br>
-I left a link above to the gif because I couldn't get the gif to play in the readme
-<img src="https://imgur.com/a/SqpRUwM.gif" width=250><br>
 
 ### Reflection
 
